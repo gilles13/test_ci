@@ -1,0 +1,8 @@
+# Book settings
+title: "Test CD Jupyter notebook"
+author: Gilles
+logo: 'logo.jpg'
+
+latex:
+  latex_documents:
+    targetname: book.tex
