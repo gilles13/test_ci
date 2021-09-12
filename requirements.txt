@@ -1,3 +1,6 @@
 jupyter-book>=0.7.0b
+sphinx
 matplotlib
+seaborn
+pandas
 numpy
