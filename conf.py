@@ -17,7 +17,7 @@ nbsphinx_execute = 'never'
 nbsphinx_allow_errors = True
 
 # Add type of source files
-source_suffix = ['.rst', '.md', '.ipynb']
+source_suffix = ['.rst', '.md', '.ipynb', '.bib']
 
 # OPTIONS FOR HTML OUTPUT
 
