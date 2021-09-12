@@ -1,7 +1,8 @@
 format: jb-article
 root: index.md
 sections:
-  - file: doc/main
-  - file: smallexample
-  - file: example01
-  - file: misc/test
+  - file: links.md
+  - file: tuto.md
+  - file: smallexample.ipynb
+  - file: example01.ipynb
+  - file: misc/test.md
