@@ -3,11 +3,6 @@
 Ceci est une zone de non-droit ! Il y a tout et n'importe quoi, **surtout n'importe quoi** !
 Pour tester différentes fonctionnalités.
 
-## TOC
-
-```{tableofcontents}
-```
-
 ## Écrire des math
 
 ```{math}
@@ -50,9 +45,13 @@ Une note qu'elle est bien belle
 ### Important !!!
 
 :::{important} 
-
 CECI EST TRES IMPORTANT
+:::
 
+### Warning
+
+:::{warning} 
+CECI EST DANGEREUX
 :::
 
 ## Citations et biblio
