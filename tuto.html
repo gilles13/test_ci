@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accueil &#8212; Test CD Jupyter notebook</title>
+    <title>Tutoriel &#8212; Test CD Jupyter notebook</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,7 +51,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Liens utiles" href="links.html" />
+    <link rel="next" title="Mon beau notebook" href="smallexample.html" />
+    <link rel="prev" title="Liens utiles" href="links.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -68,7 +69,7 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="#">
+    <a class="navbar-brand text-wrap" href="index.html">
       
       <img src="_static/logo.jpg" class="logo" alt="logo">
       
@@ -82,20 +83,20 @@
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
- <li class="toctree-l1 current">
-  <a class="reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
    Accueil
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="links.html">
    Liens utiles
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="tuto.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Tutoriel
   </a>
  </li>
@@ -158,7 +159,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/index.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/tuto.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -189,14 +190,56 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#requis">
-   Requis
+  <a class="reference internal nav-link" href="#les-differents-fichiers-de-configuration">
+   Les différents fichiers de configuration
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#avertissement">
-   Avertissement
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#config-yml">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       _config.yml
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#toc-yml">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       _toc.yml
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conf-py">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       conf.py
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#requirements-txt">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       requirements.txt
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#index-md">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       index.md
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -209,18 +252,40 @@
         
               <div>
                 
-  <div class="section" id="accueil">
-<h1>Accueil<a class="headerlink" href="#accueil" title="Permalink to this headline">¶</a></h1>
-<p>Ce site montre comment déployer un <em>notebook</em> Jupyter sur <code class="docutils literal notranslate"><span class="pre">github-pages</span></code> avec <code class="docutils literal notranslate"><span class="pre">sphinx</span></code> et mettre en place le déploiement continu.</p>
-<div class="section" id="requis">
-<h2>Requis<a class="headerlink" href="#requis" title="Permalink to this headline">¶</a></h2>
-<p>De la motivation, un ordinateur, un compte <code class="docutils literal notranslate"><span class="pre">github</span></code>.</p>
+  <div class="section" id="tutoriel">
+<h1>Tutoriel<a class="headerlink" href="#tutoriel" title="Permalink to this headline">¶</a></h1>
+<p>En mode <em>trash</em></p>
+<ol class="simple">
+<li><p>Si nécessaire, se créer un compte <a class="reference external" href="https://github.com/"><code class="docutils literal notranslate"><span class="pre">github</span></code></a></p></li>
+<li><p>Créer un projet <em>via</em> l’IHM (cliquer sur New en haut à gauche), sans <a class="reference external" href="http://README.md">README.md</a></p></li>
+<li><p>Créer les fichiers nécessaires :</p></li>
+</ol>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">_config.yml</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">conf.py</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">index.md</span></code></p></li>
+<li><p>autant de <em>notebooks</em> que nécessaire</p></li>
+</ul>
+<div class="section" id="les-differents-fichiers-de-configuration">
+<h2>Les différents fichiers de configuration<a class="headerlink" href="#les-differents-fichiers-de-configuration" title="Permalink to this headline">¶</a></h2>
+<p>TODO …</p>
+<div class="section" id="config-yml">
+<h3><code class="docutils literal notranslate"><span class="pre">_config.yml</span></code><a class="headerlink" href="#config-yml" title="Permalink to this headline">¶</a></h3>
 </div>
-<div class="section" id="avertissement">
-<h2>Avertissement<a class="headerlink" href="#avertissement" title="Permalink to this headline">¶</a></h2>
-<p>Cette doc risque d’être rapidement obsolète.</p>
+<div class="section" id="toc-yml">
+<h3><code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code><a class="headerlink" href="#toc-yml" title="Permalink to this headline">¶</a></h3>
 </div>
-<div class="toctree-wrapper compound">
+<div class="section" id="conf-py">
+<h3><code class="docutils literal notranslate"><span class="pre">conf.py</span></code><a class="headerlink" href="#conf-py" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="requirements-txt">
+<h3><code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code><a class="headerlink" href="#requirements-txt" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="index-md">
+<h3><code class="docutils literal notranslate"><span class="pre">index.md</span></code><a class="headerlink" href="#index-md" title="Permalink to this headline">¶</a></h3>
+</div>
 </div>
 </div>
 
@@ -253,11 +318,20 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="links.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Liens utiles</p>
+            </div>
+        </a>
+    </div>
      <div id="next">
-        <a class="right-next" href="links.html" title="next page">
+        <a class="right-next" href="smallexample.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Liens utiles</p>
+                <p class="prevnext-title">Mon beau <em>notebook</em></p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
