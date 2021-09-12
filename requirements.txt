@@ -1,7 +1,8 @@
 jupyter-book>=0.7.0b
-sphinx
 matplotlib
 seaborn
 pandas
 numpy
 pydata-sphinx-theme
+sphinx
+sphinxcontrib-bibtex
