@@ -58,3 +58,6 @@ CECI EST DANGEREUX
 
 Une zone d'emploi est un espace géographique à l'intérieur duquel la plupart des actifs résident et travaillent, et dans lequel les établissements peuvent trouver l'essentiel de la main d'oeuvre nécessaire pour occuper les emplois offerts. Voir :cite:p:`0997-3192` pour plus de détails.
 
+See :cite:t:`1987:nelson` for an introduction to non-standard analysis.
+
+.. bibliography::
