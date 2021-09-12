@@ -2,5 +2,6 @@ format: jb-article
 root: index.md
 sections:
   - file: doc/main
+  - file: smallexample
+  - file: example01
   - file: misc/test
-  - file: notebook
