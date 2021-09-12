@@ -2,7 +2,9 @@
 title: "Test CD Jupyter notebook"
 author: Gilles
 logo: 'logo.jpg'
-
-latex:
-  latex_documents:
-    targetname: book.tex
+# Bibliography
+bibtex_bibfiles:
+  - biblio.bib
+sphinx:
+  config:
+    bibtex_reference_style: author_year  # or label, super, \supercite
