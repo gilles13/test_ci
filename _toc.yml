@@ -1,0 +1,5 @@
+format: jb-article
+root: index.md
+sections:
+  - file: doc/main
+  - file: notebook
