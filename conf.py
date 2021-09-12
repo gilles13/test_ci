@@ -7,7 +7,7 @@ extensions = [
 ]
 
 # BIBTEX FILES
-bibtex_bibfiles = ['biblio.bib']
+bibtex_bibfiles = ['refs.bib']
 bibtex_encoding = 'latin'
 bibtex_default_style = 'unsrt'
 
