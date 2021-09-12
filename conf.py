@@ -2,8 +2,14 @@
 extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.githubpages',
+    'sphinxcontrib.bibtex',
     'nbsphinx',  # This lets us use notebooks
 ]
+
+# BIBTEX FILES
+bibtex_bibfiles = ['biblio.bib']
+bibtex_encoding = 'latin'
+bibtex_default_style = 'unsrt'
 
 # I execute the notebooks manually in advance. If notebooks test the code,
 # they should be run at build time.

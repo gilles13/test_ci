@@ -5,4 +5,5 @@ sections:
   - file: tuto.md
   - file: smallexample.ipynb
   - file: example01.ipynb
-  - file: misc/test.md
+  - file: misc.md
+  - file: biblio.md

@@ -23,12 +23,9 @@ $$
 
 ## Écrire du code
 
-```{python}
-
+```
 import mysupermodule as msm
-
 msm.domyjob()
-
 ```
 
 ## Les boites
@@ -58,4 +55,7 @@ CECI EST TRES IMPORTANT
 
 :::
 
+## Citations et biblio
+
+Une zone d'emploi est un espace géographique à l'intérieur duquel la plupart des actifs résident et travaillent, et dans lequel les établissements peuvent trouver l'essentiel de la main d'oeuvre nécessaire pour occuper les emplois offerts. Voir :cite:p:`0997-3192` pour plus de détails.
 
