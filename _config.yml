@@ -4,7 +4,7 @@ author: Gilles
 logo: 'logo.jpg'
 # Bibliography
 bibtex_bibfiles:
-  - biblio.bib
+  - refs.bib
 sphinx:
   config:
     bibtex_reference_style: author_year  # or label, super, \supercite
